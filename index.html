@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!--TITLE-->
+    <title>Tailwind</title>
+
+    <!--TAILWIND linking-->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!--ICON linking-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body class="bg-gray-200">
+
+    <!--box-->
+    <div class="flex m-auto mt-20 border rounded shadow-2xl w-140 h-70">
+
+        <!--image-->
+        <div class="">
+            <img src="./jacket_girl.png" class="w-43"/>
+        </div>
+
+        <div class="flex flex-col px-5 py-5 w-80">
+        <!--name-->
+        <div>
+            <div class="relative">
+                <div class="text-gray-400 font-bold absolute top-0 right-0">$110.00</div>
+            </div>
+            <span class="text-l font-bold">Classic Utility Jacket</span>
+            <p class="text-gray-400">In stock</p>
+        </div>
+
+        <!--size-->
+        <div>
+            <br>
+            <ul class="flex gap-6">
+                <li class="text-white flex justify-center items-center text-[1rem] bg-black rounded w-[2rem] h-[2rem]">XS</li>
+                <li class="text-gray-400 flex justify-center items-center text-[1rem]">S</li>
+                <li class="text-gray-400 flex justify-center items-center text-[1rem]">M</li>
+                <li class="text-gray-400 flex justify-center items-center text-[1rem]">L</li>
+                <li class="text-gray-400 flex justify-center items-center text-[1rem]">XL</li>
+            </ul>
+        </div>
+
+<br><hr class="text-gray-300"><br>
+
+        <!--buttons-->
+        <div class="flex gap-4">
+            <button class="text-white bg-black flex justify-center items-center font-medium rounded w-[6rem] h-[2rem]">Buy now</button>
+            <button class="text-black flex justify-center items-center font-medium border rounded w-[6rem] h-[2rem]">Add to bag</button>
+
+            <div class="relative w-15">
+                <div class="text-gray-400 font-bold absolute top-0 right-0">
+                    <i class="fa fa-solid fa-heart text-gray-400 border rounded flex justify-center items-center py-2 text-center w-[1.8rem] h-[2rem]"></i>
+                </div>
+            </div>
+
+        </div>
+        
+
+        <!--<div class="flex gap-4">
+            <button class="text-white bg-black flex justify-center items-center font-medium rounded w-[6rem] h-[2rem]">Buy now</button>
+            <button class="text-black flex justify-center items-center font-medium border rounded w-[6rem] h-[2rem]">Add to bag</button>
+
+            <div class="relative">
+            <div class="relative top-0 right-0">
+            
+            </div>
+            </div>
+        </div>-->
+
+<br>
+
+        <!--more-->
+        <div>
+            <p class="text-gray-400 text-wrap text-xs">Free shipping on all continental US orders.</p>
+        </div>
+        </div>
+
+    </div>
+
+</body>
+
+  <!--JavaScript linking-->
+  <script src="javaScript.js"></script>
+  
+</html>
